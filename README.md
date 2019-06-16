@@ -23,16 +23,16 @@
    onkeyup键盘按键按下触发</br>
    onkeydown键盘按键抬起触发</br>
 
-Cancas
-<cancas> width height 
-  var drawing = document.getElementById("drawing"); 
-  if (drawing.getContext){  
-   var context = drawing.getContext("2d");
-   context.strokeStyle = "red";
-   context.fillStyle = "#0000ff";
-  }
-矩形 fillRect  strokeRect  clearRect;
-路径
-文本 fillText strokeText
-变换 阴影 渐变createLinearGradient  creatRadialGradient
-模式 图像 数据合成
+Cancas</br>
+<cancas> width height </br>
+  var drawing = document.getElementById("drawing"); </br>
+  if (drawing.getContext){  </br>
+   var context = drawing.getContext("2d");</br>
+   context.strokeStyle = "red";</br>
+   context.fillStyle = "#0000ff";</br>
+  }</br>
+矩形 fillRect  strokeRect  clearRect;</br>
+路径</br>
+文本 fillText strokeText</br>
+变换 阴影 渐变createLinearGradient  creatRadialGradient</br>
+模式 图像 数据合成</br>
